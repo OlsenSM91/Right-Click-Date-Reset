@@ -10,7 +10,7 @@ Compression=lzma
 SolidCompression=yes
 
 [Files]
-Source: "C:\Users\Olsens\Desktop\Coding Projects\Right Click Image Date Reset\NewResetDateExtension\bin\Release\net7.0\win-x64\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "path\to\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Registry]
 Root: HKCR; Subkey: "SystemFileAssociations\image\shell\Reset Date\command"; ValueType: string; ValueName: ""; ValueData: """{app}\NewResetDateExtension.exe"" ""%1"""
